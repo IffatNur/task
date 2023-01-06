@@ -4,11 +4,15 @@ import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import { FaSearch } from "react-icons/fa";
+
 
 const Header = () => {
     return (
-      <Navbar className="bg-transparent position-fixed w-100 top-0 z-3" expand="lg">
+      <Navbar
+        className="bg-white position-fixed w-100 z-1"
+        expand="lg"
+      >
         <Container fluid className="d-flex justify-content-between mx-5">
           <div>
             <Navbar.Brand href="#">edustage</Navbar.Brand>
@@ -28,13 +32,15 @@ const Header = () => {
                 <Nav.Link href="#action5">Content</Nav.Link>
               </Nav>
               <Form className="d-flex">
-                <Form.Control
+                {/* <Form.Control
                   type="search"
                   placeholder="Search"
                   className="me-2"
                   aria-label="Search"
-                />
-                <Button variant="outline-success">Search</Button>
+                /> */}
+                <button className="bg-transparent border-0">
+                  <FaSearch></FaSearch>
+                </button>
               </Form>
             </Navbar.Collapse>
           </div>
