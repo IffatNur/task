@@ -5,6 +5,9 @@ import Hero from "./components/Hero/Hero";
 import Featurs from './components/Features/Featurs';
 import Courses from './components/Courses/Courses';
 import Trainer from './components/Trainer/Trainer';
+import Clients from './components/Clients/Clients';
+import Footer from './components/Footer/Footer';
+import Register from './components/Register/Register';
 
 function App() {
   return (
@@ -12,8 +15,11 @@ function App() {
       <Header></Header>
       <Hero></Hero>
       <Featurs></Featurs>
+      <Register></Register>
       <Courses></Courses>
       <Trainer></Trainer>
+      <Clients></Clients>
+      <Footer></Footer>
     </div>
   );
 }

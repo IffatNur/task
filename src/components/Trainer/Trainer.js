@@ -8,60 +8,53 @@ import img4 from '../../assets/person4.png'
 
 const Trainer = () => {
     return (
-      <div className="text-center my-5">
+      <div className="text-center my-5 w-75 mx-auto">
         <div className="my-4">
-          <h1>Our popular courses</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit,
-            porro.
-          </p>
+          <h1>Our Expert Trainers</h1>
         </div>
         <div class="container">
           <div class="row">
             <div class="col">
-              <Card style={{ width: "18rem" }}>
+              <Card style={{ width: "14rem",border:'none' }}>
                 <Card.Img variant="top" src={img1} />
                 <Card.Body>
-                  <Card.Title>Social Media Network</Card.Title>
+                  <Card.Title>John Doe</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    <small className="text-muted">Sr. Web Developer</small>
                   </Card.Text>
                 </Card.Body>
               </Card>
             </div>
             <div class="col">
-              <Card style={{ width: "18rem" }}>
+              <Card style={{ width: "14rem",border:'none' }}>
                 <Card.Img variant="top" src={img2} />
                 <Card.Body>
-                  <Card.Title>Social Media Network</Card.Title>
+                  <Card.Title>John Doe</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    <small className="text-muted">Sr. Web Developer</small>
                   </Card.Text>
                 </Card.Body>
               </Card>
             </div>
             <div class="col">
-              <Card style={{ width: "18rem" }}>
+              <Card style={{ width: "14rem",border:'none' }}>
                 <Card.Img variant="top" src={img3} />
                 <Card.Body>
-                  <Card.Title>Social Media Network</Card.Title>
+                  <Card.Title>John Doe</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    <small className="text-muted">Sr. Web Developer</small>
                   </Card.Text>
                 </Card.Body>
               </Card>
             </div>
             <div class="col">
-              <Card style={{ width: "18rem" }}>
+              <Card style={{ width: "14rem",border:'none' }}>
                 <Card.Img variant="top" src={img4} />
                 <Card.Body>
-                  <Card.Title>Social Media Network</Card.Title>
+                  <Card.Title>John Doe</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    {" "}
+                    <small className="text-muted">Sr. Web Developer</small>
                   </Card.Text>
                 </Card.Body>
               </Card>
